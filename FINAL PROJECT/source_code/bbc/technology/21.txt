@@ -1,0 +1,2 @@
+Meet Spidermon: Scrapinghub’s Battle Tested Spider Monitoring Library [Now Open Sourced]
+Learn how to easily monitor scrapy spiders & validate data with Spidermon! Now available as an open source library.

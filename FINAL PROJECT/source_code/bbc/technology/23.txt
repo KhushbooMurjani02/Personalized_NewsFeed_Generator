@@ -1,0 +1,2 @@
+BayesWitnesses/m2cgen
+Transform ML models into a native code (Java, C, Python, etc.) with zero dependencies - BayesWitnesses/m2cgen

@@ -1,0 +1,2 @@
+The web just took a big step toward a password-free future
+The W3C approved WebAuthn, a new authentication standard that aims to replace the password as a way of securing your online accounts. First announced last year, WebAuthn is supported by most major browsers.

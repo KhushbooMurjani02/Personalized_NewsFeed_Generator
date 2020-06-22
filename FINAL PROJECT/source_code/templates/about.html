@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NEWS</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="../static/logo.jpg">
+    <link rel="stylesheet" href="../static/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="../static/bootstrap-3.3.7-dist/webstyle.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn t work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+    <!--NAVIGATION STARTS HERE-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+                <a class="navbar-brand" href="{{url_for('onepage')}}">NEWS FEED GENERATOR</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="{{url_for('onepage')}}">Home</a></li>
+                    <li class="active"><a href="{{url_for('about')}}">About Us</a></li>
+                    <li><a href="{{url_for('mailus')}}">Mail Us</a></li>
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+
+
+
+    <div class="container-fluid" style="margin-left: 300px; margin-top: 73px; margin-right: 305px;border:5px;box-shadow: 0px 7px 7px 8px lightgray;">
+        <div class="media">
+            <div class="media-left media-middle">
+                <a href="#">
+      <img class="media-object" src="../static/news1.jpg" width="350px" height="380px">
+    </a>
+            </div>
+            <div class="media-body">
+                <h1 class="media-heading">About Us</h1>
+                <p style="font-size:20px"><strong>Hello Everyone !!</strong><br> What’s going on in your life??<br> Visit us to know what’s going on in the world.....<br> In today’s world , one needs to remain updated of all the happenings in the world. We help you to keep yourself updated of the news from around the world. Online news reading has become very popular as the web provides access to news articles from millions of sources around the world. Our website is to help users find the articles that are interesting to read. We recommend you the news gathered from various websites. Select a news of your choice from the displayed ones.....and taddaaa!!! we already have recommendations ready for you. Enjoy the Site<br> And don’t forget to give recommendation to us too...your feedback is golden for us<br>
+                    <strong>Have a good day !!</strong>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <footer class="container-fluid">
+
+        <div class="footer">
+            <h5>&copy;2019 News Feed Generator. All rights are reserved.</h5>
+        </div>
+
+    </footer>
+
+    <script src="jQuery.3.3.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+
+</html>
